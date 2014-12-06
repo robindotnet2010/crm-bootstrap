@@ -1,0 +1,24 @@
+{
+  "name": "crm-bootstrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node-static": "^0.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robindotnet2010/crm-bootstrap.git"
+  },
+  "author": "Robinson V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robindotnet2010/crm-bootstrap/issues"
+  },
+  "homepage": "https://github.com/robindotnet2010/crm-bootstrap"
+}
