@@ -4,6 +4,12 @@
 .navbar {
   min-height: 5em !important;
 }
+.navbar form {
+  background-color: #4481c0;
+}
+#navbar-toggle {
+  margin-top: 2em;
+}
 #navbar-toggle span {
   background-color: #fff;
 }
@@ -11,10 +17,21 @@
   min-height: 5em;
   background-image: linear-gradient(to bottom, #cad0d5 0, #fff 100%);
   border: 0.1em solid #b6bcc0;
-  border-bottom-width: 0px;
   margin-top: 0.5em;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
+  margin-bottom: -0.5em;
+  margin-left: 1em;
 }
 #logo-brand img {
   width: 150px;
+}
+#login-form {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+@media (min-width: 768px) {
+  .navbar form {
+    background-color: #8bc044 !important;
+  }
 }
