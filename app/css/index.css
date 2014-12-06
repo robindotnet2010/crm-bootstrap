@@ -1,0 +1,20 @@
+.green {
+  background-color: #8bc044;
+}
+.navbar {
+  min-height: 5em !important;
+}
+#navbar-toggle span {
+  background-color: #fff;
+}
+#logo-brand {
+  min-height: 5em;
+  background-image: linear-gradient(to bottom, #cad0d5 0, #fff 100%);
+  border: 0.1em solid #b6bcc0;
+  border-bottom-width: 0px;
+  margin-top: 0.5em;
+  border-radius: 10px 10px 0px 0px;
+}
+#logo-brand img {
+  width: 150px;
+}
